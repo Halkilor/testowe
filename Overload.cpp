@@ -16,9 +16,10 @@ public:
 
 int main()
 {
-  Child child;
+  Child child,child2;
   //child.MyFunc(1);
   //dodaje komentarz
   child.Parent::MyFunc(2);
+  child2.MyFunc(5);
   return 0;
 }
