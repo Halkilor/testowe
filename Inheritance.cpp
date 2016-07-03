@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
   std::cout << "Parent age: " << parent.age << std::endl; // Outputs 20.4
   
   Child child;
-  child.age = 20.4;
+  child.age = 10;
   
-  std::cout << "Child age: " << child.age << std::endl; // Outputs 20 (automatically casted to int in the subclass)
+  std::cout << "Child age: " << child.age << std::endl; // Outputs 10 
   
   return 0;
 }
