@@ -25,5 +25,10 @@ int main(int argc, char *argv[])
   
   std::cout << "Child age: " << child.age << std::endl; // Outputs 10 
   
+  (child.age > 18)
+	? std:cout << "Go to work!"<< std::endl
+	: std:cout << "Have fun!"<< std::endl;
+ 
+  
   return 0;
 }
