@@ -18,6 +18,7 @@ int main()
 {
   Child child;
   //child.MyFunc(1);
+  //dodaje komentarz
   child.Parent::MyFunc(2);
   return 0;
 }
